@@ -1,3 +1,35 @@
-Many times, when working with Git, you may want to revise your local commit history. One of the great things about Git is that it allows you to make decisions at the last possible moment. You can decide what files go into which commits right before you commit with the staging area, you can decide that you didn’t mean to be working on something yet with git stash, and you can rewrite commits that already happened so they look like they happened in a different way. This can involve changing the order of the commits, changing messages or modifying files in a commit, squashing together or splitting apart commits, or removing commits entirely — all before you share your work with others.
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>Git</title>
+    <meta charset='utf-8'>
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/assets/errors.css" rel="stylesheet"/>
+    <!--[if (gte IE 6)&(lte IE 8)]>
+      <script src="/assets/selectivizr-min.js?body=1" type="text/javascript"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class='inner'>
+      <p>
+        <img src="/images/404@2x.png" alt="404" width="456" height="149" />
+      </p>
+      <h1>That page doesn't exist.</h1>
+      <p>
+        We recently redesigned the site and older URLs may now lead to missing pages. We apologize for the inconvenience.
+      </p>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/doc">Documentation</a></li>
+          <li><a href="/downloads">Downloads</a></li>
+          <li><a href="/community">Community</a></li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+</html>
 
-In this section, you’ll see how to accomplish these tasks so that you can make your commit history look the way you want before you share it with others.
+One of the cardinal rules of Git is that, since so much work is local within your clone, you have a great deal of freedom to rewrite your history locally. However, once you push your work, it is a different story entirely, and you should consider pushed work as final unless you have good reason to change it. In short, you should avoid pushing your work until you’re happy with it and ready to share it with the rest of the world.
